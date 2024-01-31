@@ -85,6 +85,7 @@ class ProductCardViewModel: ObservableObject {
     var productCountReviews: Int {
         return product.countReviews
     }
+    
 }
 
-let SoftToyDragonSparky = ProductCardViewModel(product: ProductCardModel(price: 1790, name: "Мягкая Игрушка Дракончик Спарки", brand: "SPAR", weight: 0.29, type: "Мягкие", volume: 0.29, shelfLife: "не ограничен", country: "Россия", gost: "ГОСТ", maxStorageTemperature: 20, minStorageTemperature: -20, composition: "Текстиль", image: "Sparky", currency: "₽", unitOfMeasurement: "шт", averageReviews: 4, countReviews: 3))
+let SoftToyDragonSparky = ProductCardViewModel(product: ProductCardModel(price: 1790, name: "Мягкая Игрушка Дракончик Спарки",sale: 10, brand: "SPAR", weight: 0.29, type: "Мягкие", volume: 0.29, shelfLife: "не ограничен", country: "Россия", gost: "ГОСТ", maxStorageTemperature: 20, minStorageTemperature: -20, composition: "Текстиль", image: "Sparky", currency: "₽", unitOfMeasurement: "шт", averageReviews: 4, countReviews: 3))
