@@ -11,6 +11,11 @@
 		FA51049E2B69195200E8B985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51049D2B69195200E8B985 /* ContentView.swift */; };
 		FA5104A02B69195500E8B985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA51049F2B69195500E8B985 /* Assets.xcassets */; };
 		FA5104A32B69195500E8B985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5104A22B69195500E8B985 /* Preview Assets.xcassets */; };
+		FA5104AF2B691A1D00E8B985 /* ProductCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5104AE2B691A1D00E8B985 /* ProductCardModel.swift */; };
+		FA5104B12B691DE100E8B985 /* ProductCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5104B02B691DE100E8B985 /* ProductCardViewModel.swift */; };
+		FA5104B32B69243900E8B985 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5104B22B69243900E8B985 /* ProductCardView.swift */; };
+		FA5104B62B698A2700E8B985 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5104B52B698A2700E8B985 /* Extensions.swift */; };
+		FA5104B82B698C6B00E8B985 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5104B72B698C6B00E8B985 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		FA51049D2B69195200E8B985 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA51049F2B69195500E8B985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5104A22B69195500E8B985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA5104AE2B691A1D00E8B985 /* ProductCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardModel.swift; sourceTree = "<group>"; };
+		FA5104B02B691DE100E8B985 /* ProductCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardViewModel.swift; sourceTree = "<group>"; };
+		FA5104B22B69243900E8B985 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		FA5104B52B698A2700E8B985 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA5104B72B698C6B00E8B985 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,10 @@
 			children = (
 				FA51049B2B69195200E8B985 /* MySparApp.swift */,
 				FA51049D2B69195200E8B985 /* ContentView.swift */,
-				FA51049F2B69195500E8B985 /* Assets.xcassets */,
+				FA5104AC2B6919DE00E8B985 /* Views */,
+				FA5104AD2B6919E900E8B985 /* ViewModels */,
+				FA5104AB2B6919CB00E8B985 /* Models */,
+				FA5104B42B698A0600E8B985 /* Supports */,
 				FA5104A12B69195500E8B985 /* Preview Content */,
 			);
 			path = MySpar;
@@ -65,6 +78,40 @@
 				FA5104A22B69195500E8B985 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA5104AB2B6919CB00E8B985 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA5104AE2B691A1D00E8B985 /* ProductCardModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA5104AC2B6919DE00E8B985 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA5104B22B69243900E8B985 /* ProductCardView.swift */,
+				FA5104B72B698C6B00E8B985 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA5104AD2B6919E900E8B985 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA5104B02B691DE100E8B985 /* ProductCardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA5104B42B698A0600E8B985 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				FA5104B52B698A2700E8B985 /* Extensions.swift */,
+				FA51049F2B69195500E8B985 /* Assets.xcassets */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5104B12B691DE100E8B985 /* ProductCardViewModel.swift in Sources */,
+				FA5104B82B698C6B00E8B985 /* MainView.swift in Sources */,
+				FA5104B62B698A2700E8B985 /* Extensions.swift in Sources */,
 				FA51049E2B69195200E8B985 /* ContentView.swift in Sources */,
 				FA51049C2B69195200E8B985 /* MySparApp.swift in Sources */,
+				FA5104AF2B691A1D00E8B985 /* ProductCardModel.swift in Sources */,
+				FA5104B32B69243900E8B985 /* ProductCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +332,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +362,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
