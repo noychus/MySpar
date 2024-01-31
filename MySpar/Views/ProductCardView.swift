@@ -277,6 +277,22 @@ struct ProductCardView: View {
                 }
                 .shadow(color: .black.opacity(0.05), radius: 5)
                 .padding(.bottom, 24)
+                
+                Button(action: {}, label: {
+                    HStack {
+                        HStack {
+                            Text("Оставить отзыв")
+                                .font(.system(size: 18, weight: .semibold, design: .default))
+                                .foregroundColor(Color.SparGreen)
+                        }
+                        .frame(maxWidth: 335, minHeight: 35)
+                        .background(Color.white)
+                        .cornerRadius(30)
+                    }
+                    .frame(maxWidth: 340, minHeight: 40)
+                    .background(Color.SparGreen)
+                    .cornerRadius(30)
+                })
             }
         }
     }
