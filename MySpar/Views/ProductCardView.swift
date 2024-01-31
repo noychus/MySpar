@@ -46,9 +46,11 @@ struct ProductCardView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 20, height: 20)
                     
-                    Text("\(vm.productCountReviews) отзыв")
-                        .padding(.horizontal)
-                        .foregroundColor(Color.gray)
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        Text("\(vm.productCountReviews) отзыв")
+                            .padding(.horizontal)
+                            .foregroundColor(Color.gray)
+                    })
                     
                     Spacer()
                     
