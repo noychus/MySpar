@@ -18,8 +18,10 @@ class ReviewsViewModel: ObservableObject {
         return review.id
     }
     
+    private var userName: String
+    
     var reviewName: String {
-        return review.name
+        re
     }
     
     var reviewRating: Int {
@@ -35,5 +37,5 @@ class ReviewsViewModel: ObservableObject {
     }
 }
 
-let firstReview = ReviewsViewModel(review: ReviewsModel(name: "Имя", rating: 4, date: Date(), reviewText: "Отличный дракон"))
+let firstReview = ReviewsViewModel(review: ReviewsModel(name: "", rating: 0, date: Date(), reviewText: ""))
 

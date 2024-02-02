@@ -98,8 +98,8 @@
 		FA5104AC2B6919DE00E8B985 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA5104B22B69243900E8B985 /* ProductCardView.swift */,
 				FA5104B72B698C6B00E8B985 /* MainView.swift */,
+				FA5104B22B69243900E8B985 /* ProductCardView.swift */,
 				FA794F012B6C1E2300EE93EC /* ReviewView.swift */,
 			);
 			path = Views;

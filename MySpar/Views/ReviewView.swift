@@ -13,7 +13,7 @@ struct ReviewView: View {
     
     var body: some View {
         VStack {
-            TextField("Enter your name", text: $vm.review.name)
+            TextField("Ваше Имя", text: $vm.reviewName)
         }
     }
 }
