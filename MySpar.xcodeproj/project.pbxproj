@@ -16,9 +16,6 @@
 		FA5104B32B69243900E8B985 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5104B22B69243900E8B985 /* ProductCardView.swift */; };
 		FA5104B62B698A2700E8B985 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5104B52B698A2700E8B985 /* Extensions.swift */; };
 		FA5104B82B698C6B00E8B985 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5104B72B698C6B00E8B985 /* MainView.swift */; };
-		FA794EFE2B6C191400EE93EC /* ReviewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA794EFD2B6C191400EE93EC /* ReviewsModel.swift */; };
-		FA794F002B6C198D00EE93EC /* ReviewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA794EFF2B6C198D00EE93EC /* ReviewsViewModel.swift */; };
-		FA794F022B6C1E2300EE93EC /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA794F012B6C1E2300EE93EC /* ReviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +29,6 @@
 		FA5104B22B69243900E8B985 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
 		FA5104B52B698A2700E8B985 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FA5104B72B698C6B00E8B985 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		FA794EFD2B6C191400EE93EC /* ReviewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsModel.swift; sourceTree = "<group>"; };
-		FA794EFF2B6C198D00EE93EC /* ReviewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewModel.swift; sourceTree = "<group>"; };
-		FA794F012B6C1E2300EE93EC /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				FA5104AE2B691A1D00E8B985 /* ProductCardModel.swift */,
-				FA794EFD2B6C191400EE93EC /* ReviewsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,7 +93,6 @@
 			children = (
 				FA5104B22B69243900E8B985 /* ProductCardView.swift */,
 				FA5104B72B698C6B00E8B985 /* MainView.swift */,
-				FA794F012B6C1E2300EE93EC /* ReviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				FA5104B02B691DE100E8B985 /* ProductCardViewModel.swift */,
-				FA794EFF2B6C198D00EE93EC /* ReviewsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -193,13 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA794F022B6C1E2300EE93EC /* ReviewView.swift in Sources */,
 				FA5104B12B691DE100E8B985 /* ProductCardViewModel.swift in Sources */,
 				FA5104B82B698C6B00E8B985 /* MainView.swift in Sources */,
 				FA5104B62B698A2700E8B985 /* Extensions.swift in Sources */,
-				FA794EFE2B6C191400EE93EC /* ReviewsModel.swift in Sources */,
 				FA51049E2B69195200E8B985 /* ContentView.swift in Sources */,
-				FA794F002B6C198D00EE93EC /* ReviewsViewModel.swift in Sources */,
 				FA51049C2B69195200E8B985 /* MySparApp.swift in Sources */,
 				FA5104AF2B691A1D00E8B985 /* ProductCardModel.swift in Sources */,
 				FA5104B32B69243900E8B985 /* ProductCardView.swift in Sources */,
