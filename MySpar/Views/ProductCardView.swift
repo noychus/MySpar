@@ -380,9 +380,11 @@ struct ProductCardView: View {
                         .frame(width: 180, height: 50)
                         .background(Color.SparGreen)
                         .cornerRadius(30)
+                        
                     }
                     .frame(maxWidth: .infinity, minHeight: 60)
                     .padding(.horizontal, 24)
+            Spacer()
         }
     }
 }

@@ -17,6 +17,7 @@ struct MainTestView: View {
             VStack (spacing: 0) {
                 NavigationBarView()
             }
+            .padding(.top, 16)
             
             ZStack {
                 ZStack (alignment: .bottom) {
@@ -86,7 +87,7 @@ struct MainTestView: View {
                         })
                     }
                     
-                    .frame(maxWidth: .infinity, maxHeight: 30)
+                    .frame(maxWidth: .infinity, maxHeight: 45)
                     
                     
                 }
