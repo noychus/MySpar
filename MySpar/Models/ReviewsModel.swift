@@ -12,7 +12,7 @@ class ReviewsModel: Identifiable {
     var id = UUID()
     @Published var name: String
     @Published var rating: Int
-    var date = Date()
+    var date: Date = Date()
     @Published var reviewText: String
     
     init(id: UUID = UUID(), name: String, rating: Int, date: Date, reviewText: String) {
