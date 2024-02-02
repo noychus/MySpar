@@ -20,9 +20,6 @@ struct TabBarView: View {
 
             ZStack (alignment: .bottom) {
                 
-                
-                
-                
                 TabView (selection: $selectedButton) {
                     Text("1")
                         .tag(0)
