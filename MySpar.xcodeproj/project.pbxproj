@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA3812962B6D8B7F00C6776B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3812952B6D8B7F00C6776B /* TabBarView.swift */; };
 		FA3812982B6D8BF000C6776B /* MainTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3812972B6D8BF000C6776B /* MainTestView.swift */; };
 		FA38129A2B6D900200C6776B /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3812992B6D900200C6776B /* NavigationBarView.swift */; };
 		FA51049C2B69195200E8B985 /* MySparApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51049B2B69195200E8B985 /* MySparApp.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA3812952B6D8B7F00C6776B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		FA3812972B6D8BF000C6776B /* MainTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTestView.swift; sourceTree = "<group>"; };
 		FA3812992B6D900200C6776B /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		FA5104982B69195200E8B985 /* MySpar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				FA5104B22B69243900E8B985 /* ProductCardView.swift */,
-				FA3812952B6D8B7F00C6776B /* TabBarView.swift */,
 				FA3812972B6D8BF000C6776B /* MainTestView.swift */,
 				FA3812992B6D900200C6776B /* NavigationBarView.swift */,
 			);
@@ -191,7 +188,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5104B12B691DE100E8B985 /* ProductCardViewModel.swift in Sources */,
-				FA3812962B6D8B7F00C6776B /* TabBarView.swift in Sources */,
 				FA5104B62B698A2700E8B985 /* Extensions.swift in Sources */,
 				FA38129A2B6D900200C6776B /* NavigationBarView.swift in Sources */,
 				FA3812982B6D8BF000C6776B /* MainTestView.swift in Sources */,
