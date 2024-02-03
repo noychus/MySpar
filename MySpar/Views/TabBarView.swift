@@ -38,9 +38,9 @@ struct TabBarView: View {
                                 Image(selectedButton == 0 ? "SparIconGreen" : "SparIconGray")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
-                                    .frame(width: 20, height: 20)
+                                    .frame(width: 16, height: 16)
                                 Text("Главная")
-                                    .font(.system(size: 10, weight: .regular, design: .default))
+                                    .font(.system(size: 8, weight: .regular, design: .default))
                                     .foregroundColor(selectedButton == 0 ? Color.SparGreen : Color.SparGray)
                             }
                             .frame(width: 60, height: 50)
@@ -51,9 +51,9 @@ struct TabBarView: View {
                             Image(selectedButton == 1 ? "MenuIconGreen" : "MenuIconGray")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 20, height: 20)
+                                .frame(width: 16, height: 16)
                             Text("Каталог")
-                                .font(.system(size: 10, weight: .regular, design: .default))
+                                .font(.system(size: 8, weight: .regular, design: .default))
                                 .foregroundColor(selectedButton == 1 ? Color.SparGreen : Color.SparGray)
                         }
                         .frame(width: 60, height: 50)
@@ -64,9 +64,9 @@ struct TabBarView: View {
                             Image(selectedButton == 2 ? "BasketIconGreen" : "BasketIconGray")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 20, height: 20)
+                                .frame(width: 16, height: 16)
                             Text("Корзина")
-                                .font(.system(size: 10, weight: .regular, design: .default))
+                                .font(.system(size: 16, weight: .regular, design: .default))
                                 .foregroundColor(selectedButton == 2 ? Color.SparGreen : Color.SparGray)
                         }
                         .frame(width: 60, height: 50)
@@ -78,16 +78,16 @@ struct TabBarView: View {
                             Image(selectedButton == 3 ? "ProfileIconGreen" : "ProfileIconGray")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 20, height: 20)
+                                .frame(width: 16, height: 16)
                             Text("Профиль")
-                                .font(.system(size: 10, weight: .regular, design: .default))
+                                .font(.system(size: 8, weight: .regular, design: .default))
                                 .foregroundColor(selectedButton == 3 ? Color.SparGreen : Color.SparGray)
                         }
                         .frame(width: 60, height: 50)
                     })
                 }
                 
-                .frame(maxWidth: .infinity, maxHeight: 80)
+                .frame(maxWidth: .infinity, maxHeight: 100)
                 
                 
             }

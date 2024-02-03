@@ -32,9 +32,7 @@ struct NavigationBarView: View {
                         .frame(width: 24, height: 24)
                 })
                 //MARK: Доделать, чтобы можно было поделиться через приложение
-                Button(action: {
-                    shareApp()
-                }, label: {
+                Button(action: { shareApp() }, label: {
                     Image("ShareIconGreen")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
